@@ -1,0 +1,23 @@
+{
+  "name": "sdet5-final-interview",
+  "version": "1.0.0",
+  "description": "SDET 5 final interview API with intentionally flawed JavaScript tests",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand --verbose"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": false
+  }
+}
